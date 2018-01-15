@@ -1,0 +1,45 @@
+#body-product{
+	padding-top: 50px;
+	.pro-img-body{
+		padding-bottom: 30px;
+		width: 100%;
+	}
+}
+
+#disponible-en{
+	h5{
+		font-family: $sans-pro;
+		text-align: center;
+		font-size: 1.6em;
+		font-weight: 400;
+	}
+	a{
+		font-family: $sans-pro;
+		text-align: center;
+		display: block;
+		color: blue;
+		font-size: 1.3em;
+	}
+}
+
+#back-por{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	a{
+		text-align: center;
+		width: 250px;
+		margin: 0 auto;
+		display: block;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		border-radius: 50px;
+		border: 2px solid #241957;
+		font-size: 1.5em;
+		font-family: $sans-pro;
+		&:hover{
+			background: #241957;
+			color: #FFF;
+			text-decoration: none;
+		}
+	}
+}

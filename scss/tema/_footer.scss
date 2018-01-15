@@ -1,0 +1,29 @@
+footer{
+	background: #000000;
+	font-family: $sans-pro;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	color: #fff;
+	text-align: center;
+}
+#pre-footer{
+	margin-top: 30px;
+	padding-top: 70px;
+	background: #E6E6E6;
+	padding-bottom: 70px;
+	p{
+		font-size: 2.4em;
+		font-family: $sans-pro;
+		padding-bottom: 0px;
+		margin-bottom: 3px;
+		color: #241957;
+		font-weight: 500;
+	}
+	a{
+		font-family: $sans-pro;
+		font-size: 2.6em;
+		text-decoration: underline;
+		color: #0E68F4;
+		font-weight: 600;
+	}
+}

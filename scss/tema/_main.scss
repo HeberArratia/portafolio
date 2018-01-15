@@ -1,0 +1,9 @@
+body{
+	background: #F9F9F9;
+}
+
+
+button, .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+  outline: none !important;
+  outline-offset: -2px !important;
+}

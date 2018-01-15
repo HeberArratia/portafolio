@@ -1,0 +1,101 @@
+#menu-space{
+	height: 80px;
+	display: none;
+}
+
+#main-menu{
+
+	top: 0;
+	//background-color: #fff;
+	//position: fixed;
+	z-index: 100;
+	width: 100%;
+	.navbar{
+		margin-left: 28px;
+		//margin-right: 25px;
+		margin-bottom: 0;
+		//box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+		//box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+	}
+    .navbar-brand {
+  		padding: 0px;
+  		height: 60px;
+  		margin-top: 10px;
+  		padding-right: 15px;
+  		border-right: 1px solid rgba(0,0,0,.1);
+  		h1{
+  			font-size: 1em;
+  			font-family: $sans-pro;
+  			color: #241957;
+  		}
+  		img {
+	  		height: 100%;
+	  		padding: 0px;
+	  		width: auto;
+		}
+	}
+
+	.active a{
+		//background-color: red;
+		font-weight: 600;
+	}
+	.navbar-toggle{
+		border: 1px solid rgba(black, .4);
+		.icon-bar{
+			background-color: #000 !important;
+		}
+	}
+	.nav >li >a {
+	 	padding-top: 30px;
+	 	padding-bottom: 30px;
+	 	height: 80px;
+	 	font-family: $sans-pro;
+	 	font-weight: 700;
+	 	color: #241957;
+	 	&:hover{
+			background: #F9F9F9;
+			text-decoration: underline;
+		}
+		&:active{
+			background: #F9F9F9;
+			text-decoration: underline;
+		}
+		&:visited{
+			background: #F9F9F9;
+			text-decoration: underline;
+		}
+	}
+	.nav{
+		.icon-m-a-item{
+			padding-top: 24px;
+			padding-right: 28px;
+			padding-left: 9px;
+			&:hover{
+				text-decoration: none;
+			}
+
+		}
+		.icon-m-item{
+			font-size: 30px;
+			color: #e83f6f;
+		}
+		.icon-facebook2{
+			color: #3b5998;
+		}
+	}
+	.navbar-toggle {
+	 	padding: 10px;
+	  	margin: 25px 15px 25px 0;
+	}
+	#lgo-des{
+		display: inline-block;
+		padding-top: 30px;
+		padding-left: 15px;
+		font-size: 15px;
+		font-family: $sans-pro;
+	 	font-weight: 600;
+	 	//color: #2274a5;
+	 	color: #241957 !important;
+	}
+
+}
