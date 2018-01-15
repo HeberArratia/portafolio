@@ -26,4 +26,9 @@ footer{
 		color: #0E68F4;
 		font-weight: 600;
 	}
+	@media (max-width: 600px) {
+  		a{
+  			font-size: 1.6em;
+  		}
+	}
 }

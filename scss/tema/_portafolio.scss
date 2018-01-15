@@ -59,25 +59,35 @@
 
 	@media (max-width: 991px) {
 		.product{
-			height: 500px !important;
+			height: 730px !important;
 		}
 	}
 
 	@media (max-width: 970px) {
 		.product{
-			height: 520px !important;
+			height: 650px !important;
 		}
 	}
 
 	@media (max-width: 750px) {
 		.product{
-			height: 500px !important;
+			height: 590px !important;
 		}
 	}
 
 	@media (max-width: 580px) {
 		.product{
-			height: 360px !important;
+			height: 500px !important;
+		}
+	}
+	@media (max-width: 500px) {
+		.product{
+			height: 430px !important;
+		}
+	}
+	@media (max-width: 400px) {
+		.product{
+			height: 340px !important;
 		}
 	}
 }

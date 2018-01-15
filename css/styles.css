@@ -115,6 +115,9 @@ footer {
     text-decoration: underline;
     color: #0E68F4;
     font-weight: 600; }
+  @media (max-width: 600px) {
+    #pre-footer a {
+      font-size: 1.6em; } }
 
 #menu-space {
   height: 80px;
@@ -240,13 +243,19 @@ footer {
       height: 270px !important; } }
   @media (max-width: 991px) {
     #portafolio .product {
-      height: 500px !important; } }
+      height: 730px !important; } }
   @media (max-width: 970px) {
     #portafolio .product {
-      height: 520px !important; } }
+      height: 650px !important; } }
   @media (max-width: 750px) {
     #portafolio .product {
-      height: 500px !important; } }
+      height: 590px !important; } }
   @media (max-width: 580px) {
     #portafolio .product {
-      height: 360px !important; } }
+      height: 500px !important; } }
+  @media (max-width: 500px) {
+    #portafolio .product {
+      height: 430px !important; } }
+  @media (max-width: 400px) {
+    #portafolio .product {
+      height: 340px !important; } }
